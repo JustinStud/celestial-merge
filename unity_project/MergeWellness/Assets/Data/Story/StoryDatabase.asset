@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e160bdf004dcd4d0288f1b79c52cd85c, type: 3}
+  m_Name: StoryDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::CelestialMerge.Story.StoryDatabase
+  chapters:
+  - ChapterId: 1
+    ChapterTitle: Genesis
+    ChapterDescription: Willkommen, Architekt. Du stehst am Anfang einer endlosen
+      Reise. Aus dem Nichts erschaffst du Universen, fusionierst Partikel und erschaffst
+      Wunder.
+    LevelRangeStart: 1
+    LevelRangeEnd: 10
+    Beats:
+    - BeatId: 101
+      TriggerLevel: 1
+      NPCName: Stella
+      DialogText: "Willkommen, Architekt des Kosmos. Ich bin Stella, deine F\xFChrerin
+        durch die Sterne. Zusammen werden wir das Universum erschaffen."
+      Choices:
+      - ChoiceText: "Erz\xE4hl mir mehr"
+        RewardStardust: 50
+        UnlockCosmetic: 
+        NextBeatId: -1
+      - ChoiceText: Lass uns beginnen
+        RewardStardust: 0
+        UnlockCosmetic: 
+        NextBeatId: -1
+      LoreCategory: introduction
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    - BeatId: 102
+      TriggerLevel: 5
+      NPCName: Stella
+      DialogText: "Beachte wie die Partikel sich verbinden. Jede Fusion bringt uns
+        n\xE4her an das Geheimnis des Universums."
+      Choices: []
+      LoreCategory: particles
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    - BeatId: 103
+      TriggerLevel: 10
+      NPCName: Stella
+      DialogText: "Du hast die Grundlagen gemeistert. Aber dies ist nur der Anfang.
+        Gr\xF6\xDFere Geheimnisse warten auf dich."
+      Choices: []
+      LoreCategory: genesis_complete
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    MainCharacter: Stella
+    ChapterImage: {fileID: 0}
+  - ChapterId: 2
+    ChapterTitle: Foundations
+    ChapterDescription: "Die ersten Strukturen entstehen. Geb\xE4ude formen sich
+      aus Energie und Materie. Dein Reich w\xE4chst."
+    LevelRangeStart: 11
+    LevelRangeEnd: 25
+    Beats:
+    - BeatId: 201
+      TriggerLevel: 11
+      NPCName: Stella
+      DialogText: Die ersten Strukturen sind bereit. Errichte sie mit Bedacht - sie
+        werden das Fundament deines Reiches sein.
+      Choices: []
+      LoreCategory: structures
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    - BeatId: 202
+      TriggerLevel: 18
+      NPCName: Stella
+      DialogText: "Siehst du, wie die Strukturen zusammenwirken? Synergien entstehen
+        dort, wo \xC4hnliches sich vereint."
+      Choices: []
+      LoreCategory: synergies
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    MainCharacter: Stella
+    ChapterImage: {fileID: 0}
+  - ChapterId: 3
+    ChapterTitle: Awakening
+    ChapterDescription: Etwas Fremdes durchdringt die Leere. Zeichen erscheinen,
+      die nicht von dir stammen. Wer oder was hat sie hinterlassen?
+    LevelRangeStart: 26
+    LevelRangeEnd: 45
+    Beats:
+    - BeatId: 301
+      TriggerLevel: 26
+      NPCName: Stella
+      DialogText: "Fremde Zeichen... Ich sp\xFCre eine Pr\xE4senz, die nicht die
+        unsere ist. Sei vorsichtig, Architekt."
+      Choices: []
+      LoreCategory: foreign_signs
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    MainCharacter: Stella
+    ChapterImage: {fileID: 0}
+  - ChapterId: 4
+    ChapterTitle: Shadows
+    ChapterDescription: "Der alte W\xE4chter zeigt sich. Ein Wesen aus einer anderen
+      Zeit, mit Warnungen aus der Vergangenheit."
+    LevelRangeStart: 46
+    LevelRangeEnd: 70
+    Beats:
+    - BeatId: 401
+      TriggerLevel: 50
+      NPCName: The Watcher
+      DialogText: Viele haben versucht, was du tust. Keiner hat es geschafft. Die
+        Geschichte wiederholt sich, Architekt.
+      Choices: []
+      LoreCategory: the_watcher
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    MainCharacter: The Watcher
+    ChapterImage: {fileID: 0}
+  - ChapterId: 5
+    ChapterTitle: Convergence
+    ChapterDescription: "Das Portal \xF6ffnet sich. Dimensionen kollidieren. Alles
+      was du erschaffen hast, wird auf die Probe gestellt."
+    LevelRangeStart: 71
+    LevelRangeEnd: 100
+    Beats:
+    - BeatId: 501
+      TriggerLevel: 70
+      NPCName: Architect Council
+      DialogText: Wir waren wie du. Wir haben versucht. Jetzt teilen wir unsere Weisheit
+        mit dir. Nutze sie weise.
+      Choices: []
+      LoreCategory: council
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    MainCharacter: Architect Council
+    ChapterImage: {fileID: 0}
+  - ChapterId: 6
+    ChapterTitle: Aftermath
+    ChapterDescription: Das Portal ist geschlossen. Dein Universum existiert. Aber
+      die Reise endet nie. Es gibt immer mehr zu erschaffen.
+    LevelRangeStart: 101
+    LevelRangeEnd: 999
+    Beats:
+    - BeatId: 601
+      TriggerLevel: 101
+      NPCName: Stella
+      DialogText: "Du hast es geschafft, Architekt. Dein Universum lebt. Aber die
+        Sch\xF6pfung ist niemals vollendet. Es gibt immer mehr zu erkunden."
+      Choices: []
+      LoreCategory: aftermath
+      NPCPortrait: {fileID: 0}
+      IsCompleted: 0
+    MainCharacter: Stella
+    ChapterImage: {fileID: 0}
+  loreEntries:
+  - LoreId: 1001
+    Title: Der Beginn
+    Content: Am Anfang war das Nichts. Dann kam der Architekt. Aus dem Nichts erschuf
+      er Partikel, und aus Partikeln Universen.
+    Category: introduction
+    IsUnlocked: 1
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1002
+    Title: Die Macht der Partikel
+    Content: "Jedes Partikel tr\xE4gt die Essenz des Universums. Wenn drei sich vereinen,
+      entsteht etwas Gr\xF6\xDFeres. Dies ist das Gesetz der Fusion."
+    Category: particles
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1003
+    Title: Architektur der Sterne
+    Content: "Geb\xE4ude sind mehr als Steine und Energie. Sie sind Symbole der Ordnung
+      im Chaos. Jede Struktur erz\xE4hlt eine Geschichte."
+    Category: structures
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1004
+    Title: Die Harmonie der Elemente
+    Content: "Wenn \xE4hnliche Dinge nahe beieinander sind, verst\xE4rken sie sich
+      gegenseitig. Dies nennen wir Synergie - die Kraft der Verbindung."
+    Category: synergies
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1005
+    Title: Zeichen aus der Leere
+    Content: "Etwas Fremdes durchdringt unsere Realit\xE4t. Zeichen, die nicht von
+      uns stammen. Wer hat sie hinterlassen? Und warum?"
+    Category: foreign_signs
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1006
+    Title: "Der W\xE4chter"
+    Content: Ein Wesen aus einer anderen Zeit. Es sagt, es habe alles schon gesehen.
+      Viele Architekten kamen und gingen. Keiner hat es geschafft.
+    Category: the_watcher
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1007
+    Title: Der Rat der Architekten
+    Content: Vor dir gab es andere. Sie versuchten, was du tust. Jetzt teilen sie
+      ihre Weisheit - in der Hoffnung, dass du es besser machst.
+    Category: council
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1008
+    Title: Nach dem Ende
+    Content: "Das Portal ist geschlossen. Dein Universum existiert. Aber die Sch\xF6pfung
+      endet nie. Es gibt immer mehr zu erschaffen, zu erkunden, zu verstehen."
+    Category: aftermath
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}
+  - LoreId: 1009
+    Title: Die Genesis ist vollendet
+    Content: Du hast die Grundlagen gemeistert. Partikel geformt, Strukturen errichtet.
+      Aber dies ist nur der Anfang einer endlosen Reise.
+    Category: genesis_complete
+    IsUnlocked: 0
+    RelatedItem:
+      itemId: 
+      itemName: 
+      level: 0
+      category: 
+      rarity: 0
+      loreDescription: 
+      itemSprite: {fileID: 0}
+      stardustValue: 0
+      crystalValue: 0
+      xpReward: 0
+    LoreImage: {fileID: 0}

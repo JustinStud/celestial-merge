@@ -1,0 +1,145 @@
+/**
+ * Firestore Security Rules for Merge Wellness
+ * Production-ready security rules with proper validation
+ * 
+ * Deploy with: firebase deploy --only firestore:rules
+ */
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper function to check if user owns the resource
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Helper function to check if user is admin
+    function isAdmin() {
+      return isAuthenticated() && 
+             exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+    
+    // Helper function to validate user data structure
+    function isValidUserData() {
+      let data = request.resource.data;
+      return data.keys().hasAll(['username', 'email', 'level', 'score', 'inventory', 'lastLogin', 'createdAt', 'xp', 'coins', 'gems', 'unlockedAreas', 'achievements']) &&
+             data.username is string && 
+             data.username.size() >= 3 && 
+             data.username.size() <= 20 &&
+             data.email is string &&
+             data.email.matches('.*@.*\\..*') &&
+             data.level is int &&
+             data.level >= 1 &&
+             data.level <= 100 &&
+             data.score is int &&
+             data.score >= 0 &&
+             data.inventory is list &&
+             data.xp is int &&
+             data.xp >= 0 &&
+             data.coins is int &&
+             data.coins >= 0 &&
+             data.gems is int &&
+             data.gems >= 0 &&
+             data.unlockedAreas is list &&
+             data.achievements is list;
+    }
+    
+    // Helper function to validate inventory item
+    function isValidInventoryItem(item) {
+      return item.keys().hasAll(['itemId', 'itemName', 'tier', 'quantity']) &&
+             item.itemId is string &&
+             item.itemName is string &&
+             item.tier is int &&
+             item.tier >= 1 &&
+             item.tier <= 5 &&
+             item.quantity is int &&
+             item.quantity > 0;
+    }
+    
+    // Helper function to validate game event
+    function isValidGameEvent() {
+      let data = request.resource.data;
+      return data.keys().hasAll(['userId', 'eventType', 'timestamp']) &&
+             data.userId is string &&
+             data.eventType in ['merge', 'levelup', 'purchase', 'discover', 'challenge_complete'] &&
+             data.timestamp is timestamp;
+    }
+    
+    // Users collection
+    match /users/{userId} {
+      // Users can read their own data
+      allow read: if isOwner(userId) || isAdmin();
+      
+      // Users can create their own document (during signup)
+      allow create: if isOwner(userId) && 
+                       isValidUserData() &&
+                       request.resource.data.email == request.auth.token.email;
+      
+      // Users can update their own data with validation
+      allow update: if isOwner(userId) && 
+                       isValidUserData() &&
+                       // Prevent email changes
+                       request.resource.data.email == resource.data.email &&
+                       // Prevent level from decreasing
+                       request.resource.data.level >= resource.data.level &&
+                       // Prevent score/coins/gems from going negative
+                       request.resource.data.score >= 0 &&
+                       request.resource.data.coins >= 0 &&
+                       request.resource.data.gems >= 0 &&
+                       // Validate inventory items
+                       request.resource.data.inventory is list &&
+                       request.resource.data.inventory.size() <= 100 && // Max 100 unique items
+                       request.resource.data.inventory.hasOnly(isValidInventoryItem);
+      
+      // Users cannot delete their own data (admin only)
+      allow delete: if isAdmin();
+      
+      // Admins have full access
+      allow read, write: if isAdmin();
+    }
+    
+    // Items collection (master data - read-only for users)
+    match /items/{itemId} {
+      // Everyone can read items (public game data)
+      allow read: if true;
+      
+      // Only admins can write items
+      allow write: if isAdmin();
+    }
+    
+    // Game events collection
+    match /gameEvents/{eventId} {
+      // Users can read their own events
+      allow read: if isAuthenticated() && 
+                     (resource.data.userId == request.auth.uid || isAdmin());
+      
+      // Users can create events for themselves only
+      allow create: if isAuthenticated() && 
+                       isValidGameEvent() &&
+                       request.resource.data.userId == request.auth.uid;
+      
+      // Users cannot update or delete events (immutable)
+      allow update, delete: if isAdmin();
+    }
+    
+    // Admins collection (for admin checks)
+    match /admins/{adminId} {
+      // Only admins can read admin list
+      allow read: if isAdmin();
+      
+      // Only super admins can write (would need additional check)
+      allow write: if false; // Disabled - manage admins through Firebase Console
+    }
+    
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

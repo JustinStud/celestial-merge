@@ -1,0 +1,1225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba133e6039f5542019f3758da83229b6, type: 3}
+  m_Name: CelestialItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::CelestialMerge.CelestialItemDatabase
+  items:
+  - itemId: celestial_bodies_level1_common
+    itemName: Stardust Particle
+    level: 1
+    category: celestial_bodies
+    rarity: 0
+    loreDescription: Die Grundbausteine des Universums.
+    itemSprite: {fileID: 21300000, guid: e39b47672ca6c431d9fb014024a381e1, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: celestial_bodies_level2_uncommon
+    itemName: Cosmic Dust Cloud
+    level: 2
+    category: celestial_bodies
+    rarity: 1
+    loreDescription: Eine Wolke aus kosmischem Staub.
+    itemSprite: {fileID: 21300000, guid: e4a36428ec1db41d19026fa3a87eeaa4, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: celestial_bodies_level3_rare
+    itemName: Proto-Star
+    level: 3
+    category: celestial_bodies
+    rarity: 2
+    loreDescription: Ein Stern in der Entstehung.
+    itemSprite: {fileID: 21300000, guid: fea094368e01348cf88b9401f3b4e7db, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: celestial_bodies_level4_epic
+    itemName: Dwarf Star
+    level: 4
+    category: celestial_bodies
+    rarity: 3
+    loreDescription: Ein Zwergstern.
+    itemSprite: {fileID: 21300000, guid: d4e1375fc599544deb52c725bd145db9, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: celestial_bodies_level5_legendary
+    itemName: Main Sequence Star
+    level: 5
+    category: celestial_bodies
+    rarity: 4
+    loreDescription: Ein stabiler Stern in der Hauptreihe.
+    itemSprite: {fileID: 21300000, guid: 33faaa37213484ad3954a8b9e48e59bf, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: celestial_bodies_level6_epic
+    itemName: Giant Star
+    level: 6
+    category: celestial_bodies
+    rarity: 3
+    loreDescription: Ein Riesenstern.
+    itemSprite: {fileID: 21300000, guid: a666a4a385bb940b39d0cea61b9b94e2, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: celestial_bodies_level7_legendary
+    itemName: Supergiant
+    level: 7
+    category: celestial_bodies
+    rarity: 4
+    loreDescription: "Ein \xDCberriesenstern."
+    itemSprite: {fileID: 21300000, guid: 56ff2914eb03a4c2c8431e619519098f, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: celestial_bodies_level8_mythic
+    itemName: Hypergiant
+    level: 8
+    category: celestial_bodies
+    rarity: 5
+    loreDescription: Ein Hyperriesenstern.
+    itemSprite: {fileID: 21300000, guid: 535dea4287ec241ea841d7fa19757e8a, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: celestial_bodies_level9_rare
+    itemName: Neutron Star
+    level: 9
+    category: celestial_bodies
+    rarity: 2
+    loreDescription: Ein extrem dichter Stern.
+    itemSprite: {fileID: 21300000, guid: 7d33f261983454360ab3616eaab5fb64, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: celestial_bodies_level10_uncommon
+    itemName: Pulsar
+    level: 10
+    category: celestial_bodies
+    rarity: 1
+    loreDescription: Ein rotierender Neutronenstern.
+    itemSprite: {fileID: 21300000, guid: cf0e9c109859c452ea7a22c80f4ec79e, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: celestial_bodies_level11_common
+    itemName: Quasar
+    level: 11
+    category: celestial_bodies
+    rarity: 0
+    loreDescription: Eine leuchtende Galaxie.
+    itemSprite: {fileID: 21300000, guid: 42e5641c4854148da87ac0e9e541119b, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: celestial_bodies_level12_epic
+    itemName: White Dwarf
+    level: 12
+    category: celestial_bodies
+    rarity: 3
+    loreDescription: "Der \xDCberrest eines Sterns."
+    itemSprite: {fileID: 21300000, guid: 6d430641616114a7baf7d51cd7f3d27a, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: celestial_bodies_level13_legendary
+    itemName: Red Giant
+    level: 13
+    category: celestial_bodies
+    rarity: 4
+    loreDescription: Ein alternder Riesenstern.
+    itemSprite: {fileID: 21300000, guid: b3b30ec160dc3499d982765031fa1189, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: celestial_bodies_level14_mythic
+    itemName: Blue Giant
+    level: 14
+    category: celestial_bodies
+    rarity: 5
+    loreDescription: Ein blauer Riesenstern.
+    itemSprite: {fileID: 21300000, guid: 110b4bfbb166b4dbaa626e13fd369a21, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: celestial_bodies_level15_rare
+    itemName: Nebula Core
+    level: 15
+    category: celestial_bodies
+    rarity: 2
+    loreDescription: Der Kern einer Nebelwolke.
+    itemSprite: {fileID: 21300000, guid: 56c9b5c4141f840fca8fcfb2278f9c50, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: celestial_bodies_level16_uncommon
+    itemName: Planetary Nebula
+    level: 16
+    category: celestial_bodies
+    rarity: 1
+    loreDescription: Eine planetarische Nebelwolke.
+    itemSprite: {fileID: 21300000, guid: 9b160e264b0824b9c82bb2a6ed487ecb, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: celestial_bodies_level17_common
+    itemName: Supernova Remnant
+    level: 17
+    category: celestial_bodies
+    rarity: 0
+    loreDescription: "Der \xDCberrest einer Supernova."
+    itemSprite: {fileID: 21300000, guid: c379c6f169acd413fbe4efefb5c13ac9, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: celestial_bodies_level18_epic
+    itemName: Black Hole
+    level: 18
+    category: celestial_bodies
+    rarity: 3
+    loreDescription: Ein schwarzes Loch.
+    itemSprite: {fileID: 21300000, guid: 64a1d47bc1df147be80607c244c39422, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: celestial_bodies_level19_legendary
+    itemName: Wormhole
+    level: 19
+    category: celestial_bodies
+    rarity: 4
+    loreDescription: Ein Portal durch Raum und Zeit.
+    itemSprite: {fileID: 21300000, guid: d3d66402b05a44a9ea9727689c3a70fe, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: celestial_bodies_level20_mythic
+    itemName: Singularity
+    level: 20
+    category: celestial_bodies
+    rarity: 5
+    loreDescription: "Eine Singularit\xE4t."
+    itemSprite: {fileID: 21300000, guid: b7880472cbd554fc9a136071d54dc7c4, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: celestial_bodies_level21_rare
+    itemName: Event Horizon
+    level: 21
+    category: celestial_bodies
+    rarity: 2
+    loreDescription: Der Ereignishorizont eines schwarzen Lochs.
+    itemSprite: {fileID: 21300000, guid: a7bbf7cb1e28d4af28d64a0ff2dababc, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: celestial_bodies_level22_uncommon
+    itemName: Hawking Radiation
+    level: 22
+    category: celestial_bodies
+    rarity: 1
+    loreDescription: Hawking-Strahlung.
+    itemSprite: {fileID: 21300000, guid: fd53f66a9953b4349988ea5489a77ca5, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: celestial_bodies_level23_common
+    itemName: Quantum Foam
+    level: 23
+    category: celestial_bodies
+    rarity: 0
+    loreDescription: Quantenschaum.
+    itemSprite: {fileID: 21300000, guid: 3551d69bcfa7946c6bd821c10cc6808d, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: celestial_bodies_level24_epic
+    itemName: Cosmic String
+    level: 24
+    category: celestial_bodies
+    rarity: 3
+    loreDescription: Eine kosmische Saite.
+    itemSprite: {fileID: 21300000, guid: decd85ab0cd7d43f89dd8207725150db, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: celestial_bodies_level25_legendary
+    itemName: Multiverse Nexus
+    level: 25
+    category: celestial_bodies
+    rarity: 4
+    loreDescription: Ein Nexus zwischen Universen.
+    itemSprite: {fileID: 21300000, guid: 812b3851523754d7390f46258aab307f, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: structures_level1_common
+    itemName: Energy Beacon
+    level: 1
+    category: structures
+    rarity: 0
+    loreDescription: Ein Leuchtfeuer der Energie.
+    itemSprite: {fileID: 21300000, guid: fb9f5a3c2996545f9a00cff4d34d640e, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: structures_level2_uncommon
+    itemName: Solar Collector
+    level: 2
+    category: structures
+    rarity: 1
+    loreDescription: Sammelt Sonnenenergie.
+    itemSprite: {fileID: 21300000, guid: 32afc9d5d2fb64fb2969caa82e723bdf, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: structures_level3_rare
+    itemName: Power Node
+    level: 3
+    category: structures
+    rarity: 2
+    loreDescription: Ein Energieknoten.
+    itemSprite: {fileID: 21300000, guid: b221451580b6244328e0e88c5c049ed7, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: structures_level4_epic
+    itemName: Fusion Reactor
+    level: 4
+    category: structures
+    rarity: 3
+    loreDescription: Ein Fusionsreaktor.
+    itemSprite: {fileID: 21300000, guid: c19753b57dbb24679ab17d6b82dc9685, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: structures_level5_legendary
+    itemName: Quantum Generator
+    level: 5
+    category: structures
+    rarity: 4
+    loreDescription: Ein Quantengenerator.
+    itemSprite: {fileID: 21300000, guid: 3396f91c9e77e4b81a2d160e3478ee59, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: structures_level6_mythic
+    itemName: Antimatter Plant
+    level: 6
+    category: structures
+    rarity: 5
+    loreDescription: Eine Antimaterie-Anlage.
+    itemSprite: {fileID: 21300000, guid: d91eb140a4e014ec19c71481ce7a79ff, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: structures_level7_rare
+    itemName: Dyson Sphere Segment
+    level: 7
+    category: structures
+    rarity: 2
+    loreDescription: "Ein Segment einer Dyson-Sph\xE4re."
+    itemSprite: {fileID: 21300000, guid: e4025138d22c744ffae8dd2cfbd9eee6, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: structures_level8_uncommon
+    itemName: Ringworld Habitat
+    level: 8
+    category: structures
+    rarity: 1
+    loreDescription: Ein Ringwelt-Habitat.
+    itemSprite: {fileID: 21300000, guid: 02afec65f67584bc0a9eb05f7131619d, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: structures_level9_common
+    itemName: Stellar Forge
+    level: 9
+    category: structures
+    rarity: 0
+    loreDescription: Schmiedet Sterne.
+    itemSprite: {fileID: 21300000, guid: 8ecfae1a9b413465e8c0f8ac706cda8b, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: structures_level10_epic
+    itemName: Galactic Foundry
+    level: 10
+    category: structures
+    rarity: 3
+    loreDescription: "Eine galaktische Gie\xDFerei."
+    itemSprite: {fileID: 21300000, guid: 647567584b00444f4a2adb9c9c9086b2, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: structures_level11_rare
+    itemName: Mega-Transmitter
+    level: 11
+    category: structures
+    rarity: 2
+    loreDescription: Ein Mega-Transmitter.
+    itemSprite: {fileID: 21300000, guid: 23b99b1a8f4ae40ffa6b28469886895a, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: structures_level12_uncommon
+    itemName: Hyperspace Gate
+    level: 12
+    category: structures
+    rarity: 1
+    loreDescription: Ein Hyperraum-Tor.
+    itemSprite: {fileID: 21300000, guid: 3e064377e26814d078eb8c463b34dfd9, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: structures_level13_common
+    itemName: Matter Converter
+    level: 13
+    category: structures
+    rarity: 0
+    loreDescription: Ein Materie-Konverter.
+    itemSprite: {fileID: 21300000, guid: 949eef92937144332a754e46d9ae4e77, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: structures_level14_epic
+    itemName: Void Factory
+    level: 14
+    category: structures
+    rarity: 3
+    loreDescription: Eine Leere-Fabrik.
+    itemSprite: {fileID: 21300000, guid: f111604142c744aa4b3ca9e0a5ef144e, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: structures_level15_legendary
+    itemName: Reality Engine
+    level: 15
+    category: structures
+    rarity: 4
+    loreDescription: "Eine Realit\xE4ts-Maschine."
+    itemSprite: {fileID: 21300000, guid: 37818f5ab86cf4228abf30459cf07113, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: structures_level16_mythic
+    itemName: Omega Station
+    level: 16
+    category: structures
+    rarity: 5
+    loreDescription: Eine Omega-Station.
+    itemSprite: {fileID: 21300000, guid: 21bf0bb187afe4d3a816724e2bbbd062, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: structures_level17_rare
+    itemName: Null-Point Generator
+    level: 17
+    category: structures
+    rarity: 2
+    loreDescription: Ein Nullpunkt-Generator.
+    itemSprite: {fileID: 21300000, guid: 11abbaf05955a4180971749c38960ef7, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: structures_level18_uncommon
+    itemName: Temporal Accelerator
+    level: 18
+    category: structures
+    rarity: 1
+    loreDescription: Ein Zeitbeschleuniger.
+    itemSprite: {fileID: 21300000, guid: 348f8fb040f4d449787681696ad5c911, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: structures_level19_common
+    itemName: Singularity Forge
+    level: 19
+    category: structures
+    rarity: 0
+    loreDescription: "Eine Singularit\xE4ts-Schmiede."
+    itemSprite: {fileID: 21300000, guid: f0bc9b9bc6a0e4073a4be4f08261fc51, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: structures_level20_epic
+    itemName: Cosmic Ascension Core
+    level: 20
+    category: structures
+    rarity: 3
+    loreDescription: Ein kosmischer Aufstiegs-Kern.
+    itemSprite: {fileID: 21300000, guid: edbf4d1b32f0e4cf194fc50c22793347, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: lifeforms_level1_common
+    itemName: Microbe Spore
+    level: 1
+    category: lifeforms
+    rarity: 0
+    loreDescription: Ein winziger Lebenskeim.
+    itemSprite: {fileID: 21300000, guid: bb6a458b5ef7c418a96c0be88c492316, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: lifeforms_level2_uncommon
+    itemName: Sentient Crystal
+    level: 2
+    category: lifeforms
+    rarity: 1
+    loreDescription: Ein bewusster Kristall.
+    itemSprite: {fileID: 21300000, guid: d359a50158ce24060b2fb7b54d4290ff, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: lifeforms_level3_rare
+    itemName: Proto-Cell
+    level: 3
+    category: lifeforms
+    rarity: 2
+    loreDescription: Eine Urzelle.
+    itemSprite: {fileID: 21300000, guid: 65c32bcdc5a0e44a68ff96da04e6c6ec, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: lifeforms_level4_epic
+    itemName: Multicellular Organism
+    level: 4
+    category: lifeforms
+    rarity: 3
+    loreDescription: Ein mehrzelliger Organismus.
+    itemSprite: {fileID: 21300000, guid: 5ba52763ab5ce4715ade30a03d5fccca, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: lifeforms_level5_legendary
+    itemName: Aquatic Lifeform
+    level: 5
+    category: lifeforms
+    rarity: 4
+    loreDescription: Eine aquatische Lebensform.
+    itemSprite: {fileID: 21300000, guid: 65badfc9dfef94524b37e35774366528, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: lifeforms_level6_mythic
+    itemName: Terrestrial Plant
+    level: 6
+    category: lifeforms
+    rarity: 5
+    loreDescription: Eine terrestrische Pflanze.
+    itemSprite: {fileID: 21300000, guid: bf84dc95eca214f15b76486fffa3d7fe, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: lifeforms_level7_rare
+    itemName: Invertebrate
+    level: 7
+    category: lifeforms
+    rarity: 2
+    loreDescription: Ein Wirbelloses.
+    itemSprite: {fileID: 21300000, guid: fb97d8d336e414a0cb58ea2cb85994e2, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: lifeforms_level8_uncommon
+    itemName: Vertebrate
+    level: 8
+    category: lifeforms
+    rarity: 1
+    loreDescription: Ein Wirbeltier.
+    itemSprite: {fileID: 21300000, guid: db8658535fb8945428f2d7582356bf34, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: lifeforms_level9_common
+    itemName: Sentient Being
+    level: 9
+    category: lifeforms
+    rarity: 0
+    loreDescription: Ein bewusstes Wesen.
+    itemSprite: {fileID: 21300000, guid: a956860ce2f7d4662a1b1323566e3112, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: lifeforms_level10_epic
+    itemName: Hive Mind
+    level: 10
+    category: lifeforms
+    rarity: 3
+    loreDescription: Ein Schwarmbewusstsein.
+    itemSprite: {fileID: 21300000, guid: e5129a6c2e9364586b9f160153313092, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: lifeforms_level11_rare
+    itemName: Cosmic Guardian
+    level: 11
+    category: lifeforms
+    rarity: 2
+    loreDescription: "Ein kosmischer W\xE4chter."
+    itemSprite: {fileID: 21300000, guid: 136ff7df9ac8b4fa6aad108304be3d39, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: lifeforms_level12_uncommon
+    itemName: Ethereal Being
+    level: 12
+    category: lifeforms
+    rarity: 1
+    loreDescription: "Ein \xE4therisches Wesen."
+    itemSprite: {fileID: 21300000, guid: 2002c829d38c24855ba6411cbf0f5685, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: lifeforms_level13_common
+    itemName: Star Whale
+    level: 13
+    category: lifeforms
+    rarity: 0
+    loreDescription: Ein Wal, der durch Sterne schwimmt.
+    itemSprite: {fileID: 21300000, guid: bc9e6ec72ab6249328a39add60537e08, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: lifeforms_level14_epic
+    itemName: Void Dragon
+    level: 14
+    category: lifeforms
+    rarity: 3
+    loreDescription: Ein Drache der Leere.
+    itemSprite: {fileID: 21300000, guid: 022eda18257a2402594d67e54dd3063e, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: lifeforms_level15_legendary
+    itemName: Galactic Phoenix
+    level: 15
+    category: lifeforms
+    rarity: 4
+    loreDescription: "Ein galaktischer Ph\xF6nix."
+    itemSprite: {fileID: 21300000, guid: a32002d7dde87491294c534cdbcd7583, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: lifeforms_level16_mythic
+    itemName: Quantum Collective
+    level: 16
+    category: lifeforms
+    rarity: 5
+    loreDescription: Ein Quantenkollektiv.
+    itemSprite: {fileID: 21300000, guid: dad867db84ced4c2b96b95bdb2baf07a, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: lifeforms_level17_rare
+    itemName: Time Weaver
+    level: 17
+    category: lifeforms
+    rarity: 2
+    loreDescription: Ein Zeitweber.
+    itemSprite: {fileID: 21300000, guid: 60dfc12eb7e564980928c1e07ad9c8c9, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: lifeforms_level18_uncommon
+    itemName: Reality Shaper
+    level: 18
+    category: lifeforms
+    rarity: 1
+    loreDescription: "Ein Realit\xE4tsformer."
+    itemSprite: {fileID: 21300000, guid: 3a669e612af464950a777de61411d7c2, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: artifacts_level1_common
+    itemName: Ancient Rune
+    level: 1
+    category: artifacts
+    rarity: 0
+    loreDescription: Eine uralte Rune.
+    itemSprite: {fileID: 21300000, guid: ece855ce0a2a64b34937988c0a553f50, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: artifacts_level2_uncommon
+    itemName: Glowing Totem
+    level: 2
+    category: artifacts
+    rarity: 1
+    loreDescription: Ein leuchtender Totem.
+    itemSprite: {fileID: 21300000, guid: d4d4f70b04b4d43229a2b938b6d216de, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: artifacts_level3_rare
+    itemName: Crystal Obelisk
+    level: 3
+    category: artifacts
+    rarity: 2
+    loreDescription: Ein Kristall-Obelisk.
+    itemSprite: {fileID: 21300000, guid: 27772cc2221df416c8cbcc3227dccb06, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: artifacts_level4_epic
+    itemName: Star Map
+    level: 4
+    category: artifacts
+    rarity: 3
+    loreDescription: Eine Sternenkarte.
+    itemSprite: {fileID: 21300000, guid: 1202c4c20ce31479b81e399d8b0fb15a, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: artifacts_level5_legendary
+    itemName: Void Compass
+    level: 5
+    category: artifacts
+    rarity: 4
+    loreDescription: Ein Kompass der Leere.
+    itemSprite: {fileID: 21300000, guid: 5e1716ad47d614b5a81aa3715a8efd2b, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: artifacts_level6_mythic
+    itemName: Eternity Dial
+    level: 6
+    category: artifacts
+    rarity: 5
+    loreDescription: Ein Zifferblatt der Ewigkeit.
+    itemSprite: {fileID: 21300000, guid: af3b1c757a9544792983af805bf81432, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: artifacts_level7_rare
+    itemName: Fate Weaver
+    level: 7
+    category: artifacts
+    rarity: 2
+    loreDescription: Ein Schicksalsweber.
+    itemSprite: {fileID: 21300000, guid: 2d2914f542ab84637af36e53cc483422, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: artifacts_level8_uncommon
+    itemName: Reality Shard
+    level: 8
+    category: artifacts
+    rarity: 1
+    loreDescription: "Ein Splitter der Realit\xE4t."
+    itemSprite: {fileID: 21300000, guid: 712760a5de9ba4901af4314985c993b3, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: artifacts_level9_common
+    itemName: Time Crystal
+    level: 9
+    category: artifacts
+    rarity: 0
+    loreDescription: Ein Kristall der Zeit.
+    itemSprite: {fileID: 21300000, guid: a82d31d67e42848128f575e38f9620b6, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: artifacts_level10_epic
+    itemName: Dimension Key
+    level: 10
+    category: artifacts
+    rarity: 3
+    loreDescription: "Ein Dimensionsschl\xFCssel."
+    itemSprite: {fileID: 21300000, guid: 40d8dde1e33fd4d169f3c474180af03b, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: artifacts_level11_rare
+    itemName: Infinity Stone
+    level: 11
+    category: artifacts
+    rarity: 2
+    loreDescription: Ein Stein der Unendlichkeit.
+    itemSprite: {fileID: 21300000, guid: c56ff1a87d8594569999704ae1184359, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: artifacts_level12_uncommon
+    itemName: Omniscience Orb
+    level: 12
+    category: artifacts
+    rarity: 1
+    loreDescription: Eine Kugel der Allwissenheit.
+    itemSprite: {fileID: 21300000, guid: 70df993904da2458688810e47eb42eb3, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: artifacts_level13_common
+    itemName: Chaos Vortex
+    level: 13
+    category: artifacts
+    rarity: 0
+    loreDescription: Ein Chaos-Wirbel.
+    itemSprite: {fileID: 21300000, guid: 3d9aafff46e594c53ac89eae6a1054da, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: artifacts_level14_epic
+    itemName: Fate Seal
+    level: 14
+    category: artifacts
+    rarity: 3
+    loreDescription: Ein Schicksalssiegel.
+    itemSprite: {fileID: 21300000, guid: c83ed03c30f3a46318610b3e6f9b889e, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: artifacts_level15_legendary
+    itemName: Genesis Cradle
+    level: 15
+    category: artifacts
+    rarity: 4
+    loreDescription: Eine Genesis-Wiege.
+    itemSprite: {fileID: 21300000, guid: 4d21da042a18b4b54b693af9a295ce6f, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: elements_fire_level1_common
+    itemName: Fire Chain
+    level: 1
+    category: elements
+    rarity: 0
+    loreDescription: Eine Feuerkette.
+    itemSprite: {fileID: 21300000, guid: f8a61cb3c6f904894a93488c2b5517d6, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: elements_water_level1_uncommon
+    itemName: Water Vortex
+    level: 1
+    category: elements
+    rarity: 1
+    loreDescription: Ein Wasserwirbel.
+    itemSprite: {fileID: 21300000, guid: 03631edd6994244c2ba6680fd9a3d966, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: elements_wind_level1_rare
+    itemName: Wind Spiral
+    level: 1
+    category: elements
+    rarity: 2
+    loreDescription: Eine Windspirale.
+    itemSprite: {fileID: 21300000, guid: 5a5bcd3f95c094593aa9cb46da55e49f, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: elements_earth_level1_epic
+    itemName: Earth Core
+    level: 1
+    category: elements
+    rarity: 3
+    loreDescription: Ein Erdkern.
+    itemSprite: {fileID: 21300000, guid: ea69931920706498191d24c6e872e23f, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: elements_level2_legendary
+    itemName: Plasma Bolt
+    level: 2
+    category: elements
+    rarity: 4
+    loreDescription: Ein Plasmabolt.
+    itemSprite: {fileID: 21300000, guid: ba67d53f3667c416d9d94dc284be813b, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: elements_level2_mythic
+    itemName: Ice Shard
+    level: 2
+    category: elements
+    rarity: 5
+    loreDescription: Ein Eissplitter.
+    itemSprite: {fileID: 21300000, guid: 0813ce6b2423d4fb599ea4cefa45b779, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: elements_level2_rare
+    itemName: Lightning Arc
+    level: 2
+    category: elements
+    rarity: 2
+    loreDescription: Ein Blitzbogen.
+    itemSprite: {fileID: 21300000, guid: e04c3f4be5f99492e9a8f6520f608dcb, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: elements_level2_uncommon
+    itemName: Crystal Lattice
+    level: 2
+    category: elements
+    rarity: 1
+    loreDescription: Ein Kristallgitter.
+    itemSprite: {fileID: 21300000, guid: bf6da433165f84da89534918a5d6d2d1, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: elements_level3_common
+    itemName: Lava Flow
+    level: 3
+    category: elements
+    rarity: 0
+    loreDescription: Ein Lavastrom.
+    itemSprite: {fileID: 21300000, guid: 827290b07bc5a4dafa8254b47c4d7ce7, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: elements_level3_epic
+    itemName: Tidal Wave
+    level: 3
+    category: elements
+    rarity: 3
+    loreDescription: Eine Flutwelle.
+    itemSprite: {fileID: 21300000, guid: a9354ea430a3f4cfbb792e767d177cc5, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: elements_level3_legendary
+    itemName: Hurricane
+    level: 3
+    category: elements
+    rarity: 4
+    loreDescription: Ein Hurrikan.
+    itemSprite: {fileID: 21300000, guid: 2d91b5d983bfa4791a1167122a5805e8, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: elements_level3_mythic
+    itemName: Earthquake
+    level: 3
+    category: elements
+    rarity: 5
+    loreDescription: Ein Erdbeben.
+    itemSprite: {fileID: 21300000, guid: c14c38ff9e71f41698ea11ab9c978c80, type: 3}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: elements_level4_rare
+    itemName: Solar Flare
+    level: 4
+    category: elements
+    rarity: 2
+    loreDescription: Ein Sonnenflare.
+    itemSprite: {fileID: 21300000, guid: b48090fa1918f458e8eadadb0bfabc1e, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: elements_level4_uncommon
+    itemName: Meteor Shower
+    level: 4
+    category: elements
+    rarity: 1
+    loreDescription: Ein Meteoritenschauer.
+    itemSprite: {fileID: 21300000, guid: 3079e8e33e4194673ae2dc8321101868, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: elements_level4_common
+    itemName: Aurora
+    level: 4
+    category: elements
+    rarity: 0
+    loreDescription: Eine Aurora.
+    itemSprite: {fileID: 21300000, guid: 303f50420ae674968b1b8e4e630fe764, type: 3}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: elements_level5_epic
+    itemName: Black Hole Mini
+    level: 5
+    category: elements
+    rarity: 3
+    loreDescription: Ein Mini-Schwarzes-Loch.
+    itemSprite: {fileID: 21300000, guid: 4f2251e365147467d88ebbe614c7bb99, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: elements_level6_epic
+    itemName: Quantum Singularity
+    level: 6
+    category: elements
+    rarity: 3
+    loreDescription: "Eine Quantensingularit\xE4t."
+    itemSprite: {fileID: 21300000, guid: 372a1b164d97a43a69c869b2e0347367, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: elements_level6_common
+    itemName: Nebula Core
+    level: 6
+    category: elements
+    rarity: 0
+    loreDescription: Ein Nebelkern.
+    itemSprite: {fileID: 21300000, guid: 2e11c1f08e4fa45dc9b540f82cb7a4f8, type: 3}
+    stardustValue: 200
+    crystalValue: 0
+    xpReward: 4
+  - itemId: elements_level6_rare
+    itemName: Void Essence
+    level: 6
+    category: elements
+    rarity: 2
+    loreDescription: Leere-Essenz.
+    itemSprite: {fileID: 21300000, guid: 6d18e0cbbbe5349f5994fcc55ca69a92, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: elements_level6_legendary
+    itemName: Cosmic Storm
+    level: 6
+    category: elements
+    rarity: 4
+    loreDescription: Ein kosmischer Sturm.
+    itemSprite: {fileID: 21300000, guid: 8d3a0e3f4e84c4bb88a3ad18ebb15a53, type: 3}
+    stardustValue: 2000
+    crystalValue: 0
+    xpReward: 40
+  - itemId: elements_level7_epic
+    itemName: Galactic Nucleus
+    level: 7
+    category: elements
+    rarity: 3
+    loreDescription: Ein galaktischer Kern.
+    itemSprite: {fileID: 21300000, guid: 9c39c2885a1b242e4baccb05693950ff, type: 3}
+    stardustValue: 2000
+    crystalValue: 0
+    xpReward: 40
+  - itemId: elements_level7_common
+    itemName: Stellar Fragment
+    level: 7
+    category: elements
+    rarity: 0
+    loreDescription: Ein Sternenfragment.
+    itemSprite: {fileID: 21300000, guid: eef6d26423dcf4ad895b035d1e0a5e44, type: 3}
+    stardustValue: 400
+    crystalValue: 0
+    xpReward: 8
+  - itemId: elements_level7_rare
+    itemName: Plasma Cascade
+    level: 7
+    category: elements
+    rarity: 2
+    loreDescription: Eine Plasmakaskade.
+    itemSprite: {fileID: 21300000, guid: efdeef59e50104906986969b6239449d, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: elements_level8_epic
+    itemName: Event Horizon
+    level: 8
+    category: elements
+    rarity: 3
+    loreDescription: Ein Ereignishorizont.
+    itemSprite: {fileID: 21300000, guid: e1c1e69bcab29465daff07a73bec00e7, type: 3}
+    stardustValue: 4000
+    crystalValue: 0
+    xpReward: 80
+  - itemId: elements_level8_common
+    itemName: Light Echo
+    level: 8
+    category: elements
+    rarity: 0
+    loreDescription: Ein Lichtecho.
+    itemSprite: {fileID: 21300000, guid: 03d66408b8443407992d5f52ddc4a9c9, type: 3}
+    stardustValue: 800
+    crystalValue: 0
+    xpReward: 16
+  - itemId: elements_level9_epic
+    itemName: Supernova Remnant
+    level: 9
+    category: elements
+    rarity: 3
+    loreDescription: "Ein Supernova-\xDCberrest."
+    itemSprite: {fileID: 21300000, guid: 0363a7477d81f47b3879f5987c932cad, type: 3}
+    stardustValue: 8000
+    crystalValue: 0
+    xpReward: 160
+  - itemId: elements_level9_common
+    itemName: Cosmic Dust Cloud
+    level: 9
+    category: elements
+    rarity: 0
+    loreDescription: Eine kosmische Staubwolke.
+    itemSprite: {fileID: 21300000, guid: 21ac5344de31c4fb3889100d8af6d554, type: 3}
+    stardustValue: 1600
+    crystalValue: 0
+    xpReward: 32
+  - itemId: elements_level10_epic
+    itemName: Wormhole Gateway
+    level: 10
+    category: elements
+    rarity: 3
+    loreDescription: Ein Wurmloch-Portal.
+    itemSprite: {fileID: 21300000, guid: c901e6f5d65f14e94a99216b86fd9b1d, type: 3}
+    stardustValue: 16000
+    crystalValue: 0
+    xpReward: 320
+  - itemId: decorations_level1_legendary
+    itemName: Nebula Cloud
+    level: 1
+    category: decorations
+    rarity: 4
+    loreDescription: Eine Nebelwolke.
+    itemSprite: {fileID: 21300000, guid: ec35603bc6e5c4358820842e87b2f8f0, type: 3}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: decorations_level2_uncommon
+    itemName: Stardust Fountain
+    level: 2
+    category: decorations
+    rarity: 1
+    loreDescription: Ein Brunnen aus Sternenstaub.
+    itemSprite: {fileID: 21300000, guid: 7cf2a772166924481b7c3dce297dfcc0, type: 3}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: decorations_level3_rare
+    itemName: Crystal Garden
+    level: 3
+    category: decorations
+    rarity: 2
+    loreDescription: Ein Garten aus Kristallen.
+    itemSprite: {fileID: 21300000, guid: 6c9c4741c88024177b89bfc8300a784e, type: 3}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: decorations_level4_epic
+    itemName: Aurora Veil
+    level: 4
+    category: decorations
+    rarity: 3
+    loreDescription: Ein Auroraschleier.
+    itemSprite: {fileID: 21300000, guid: 789d5cbb388fd4919a2a37642bd535c7, type: 3}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: decorations_level5_legendary
+    itemName: Comet Tail
+    level: 5
+    category: decorations
+    rarity: 4
+    loreDescription: Ein Kometenschweif.
+    itemSprite: {fileID: 0}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: decorations_level6_mythic
+    itemName: Galaxy Spiral
+    level: 6
+    category: decorations
+    rarity: 5
+    loreDescription: Eine Galaxienspirale.
+    itemSprite: {fileID: 0}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: decorations_level7_rare
+    itemName: Pulsar Ring
+    level: 7
+    category: decorations
+    rarity: 2
+    loreDescription: Ein Pulsarring.
+    itemSprite: {fileID: 0}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: decorations_level8_uncommon
+    itemName: Void Rift
+    level: 8
+    category: decorations
+    rarity: 1
+    loreDescription: Ein Leere-Riss.
+    itemSprite: {fileID: 0}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: decorations_level9_common
+    itemName: Meteor Field
+    level: 9
+    category: decorations
+    rarity: 0
+    loreDescription: Ein Meteoritenfeld.
+    itemSprite: {fileID: 0}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1
+  - itemId: decorations_level10_epic
+    itemName: Supernova Burst
+    level: 10
+    category: decorations
+    rarity: 3
+    loreDescription: Ein Supernova-Ausbruch.
+    itemSprite: {fileID: 0}
+    stardustValue: 500
+    crystalValue: 0
+    xpReward: 10
+  - itemId: decorations_level11_legendary
+    itemName: Wormhole Arc
+    level: 11
+    category: decorations
+    rarity: 4
+    loreDescription: Ein Wurmlochbogen.
+    itemSprite: {fileID: 0}
+    stardustValue: 1000
+    crystalValue: 0
+    xpReward: 20
+  - itemId: decorations_level12_mythic
+    itemName: Starfield
+    level: 12
+    category: decorations
+    rarity: 5
+    loreDescription: Ein Sternenfeld.
+    itemSprite: {fileID: 0}
+    stardustValue: 2500
+    crystalValue: 0
+    xpReward: 50
+  - itemId: decorations_level13_rare
+    itemName: Cosmic Dust
+    level: 13
+    category: decorations
+    rarity: 2
+    loreDescription: Kosmischer Staub.
+    itemSprite: {fileID: 0}
+    stardustValue: 250
+    crystalValue: 0
+    xpReward: 5
+  - itemId: decorations_level14_uncommon
+    itemName: Light Beam
+    level: 14
+    category: decorations
+    rarity: 1
+    loreDescription: Ein Lichtstrahl.
+    itemSprite: {fileID: 0}
+    stardustValue: 100
+    crystalValue: 0
+    xpReward: 2
+  - itemId: decorations_level15_common
+    itemName: Void Essence
+    level: 15
+    category: decorations
+    rarity: 0
+    loreDescription: Leere-Essenz.
+    itemSprite: {fileID: 0}
+    stardustValue: 50
+    crystalValue: 0
+    xpReward: 1

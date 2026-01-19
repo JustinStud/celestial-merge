@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6b7c80eacf84ed9a6edba7a6667411, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::MergeWellness.ItemDatabase
+  items:
+  - itemId: yoga_tier1
+    itemName: Yoga Mat
+    tier: 1
+    itemType: yoga
+    wellnessFact: "Yoga verbessert Flexibilit\xE4t und reduziert Stress."
+    itemSprite: {fileID: 0}
+  - itemId: meditation_tier1
+    itemName: Meditation Stone
+    tier: 1
+    itemType: meditation
+    wellnessFact: "Meditation reduziert nachweislich Angstzust\xE4nde."
+    itemSprite: {fileID: 0}
+  - itemId: herbal_tier1
+    itemName: Herbal Tea
+    tier: 1
+    itemType: herbal
+    wellnessFact: "Kr\xE4utertee kann Entz\xFCndungen reduzieren."
+    itemSprite: {fileID: 0}
+  - itemId: yoga_tier2
+    itemName: Meditation Space
+    tier: 2
+    itemType: yoga
+    wellnessFact: Ein ruhiger Raum verbessert die Meditation.
+    itemSprite: {fileID: 0}
+  - itemId: meditation_tier2
+    itemName: Wellness Kit
+    tier: 2
+    itemType: meditation
+    wellnessFact: "Wellness-Routinen st\xE4rken das Immunsystem."
+    itemSprite: {fileID: 0}
+  - itemId: herbal_tier2
+    itemName: Herbal Tea Blend
+    tier: 2
+    itemType: herbal
+    wellnessFact: "Kr\xE4utermischungen haben synergetische Effekte."
+    itemSprite: {fileID: 0}
+  - itemId: yoga_tier3
+    itemName: Yoga Studio
+    tier: 3
+    itemType: yoga
+    wellnessFact: "Regelm\xE4\xDFiges Yoga verbessert die Herzgesundheit."
+    itemSprite: {fileID: 0}
+  - itemId: meditation_tier3
+    itemName: Healing Garden
+    tier: 3
+    itemType: meditation
+    wellnessFact: Naturkontakt reduziert Cortisol-Level.
+    itemSprite: {fileID: 0}
+  - itemId: herbal_tier3
+    itemName: Premium Wellness Retreat
+    tier: 3
+    itemType: herbal
+    wellnessFact: "Auszeiten f\xF6rdern mentale Gesundheit."
+    itemSprite: {fileID: 0}
+  - itemId: yoga_tier4
+    itemName: Advanced Yoga Center
+    tier: 4
+    itemType: yoga
+    wellnessFact: "Fortgeschrittenes Yoga f\xF6rdert mentale Klarheit."
+    itemSprite: {fileID: 0}
+  - itemId: meditation_tier4
+    itemName: Zen Sanctuary
+    tier: 4
+    itemType: meditation
+    wellnessFact: Meditation verbessert die Konzentration.
+    itemSprite: {fileID: 0}
+  - itemId: herbal_tier4
+    itemName: Master Herbal Blend
+    tier: 4
+    itemType: herbal
+    wellnessFact: "Premium-Kr\xE4uter unterst\xFCtzen die Gesundheit."
+    itemSprite: {fileID: 0}
+  - itemId: yoga_tier5
+    itemName: Master Yoga Temple
+    tier: 5
+    itemType: yoga
+    wellnessFact: "Meister-Yoga f\xFChrt zu innerem Frieden."
+    itemSprite: {fileID: 0}
+  - itemId: meditation_tier5
+    itemName: Enlightenment Garden
+    tier: 5
+    itemType: meditation
+    wellnessFact: "Tiefe Meditation bringt spirituelle Erf\xFCllung."
+    itemSprite: {fileID: 0}
+  - itemId: herbal_tier5
+    itemName: Ultimate Wellness Elixir
+    tier: 5
+    itemType: herbal
+    wellnessFact: "Das ultimative Wellness-Elixir f\xFCr vollkommene Gesundheit."
+    itemSprite: {fileID: 0}
