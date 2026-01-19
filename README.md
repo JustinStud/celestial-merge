@@ -1,1 +1,1 @@
-# Celestial Merge - Automated Game Development
+Celestial Merge - Automated Game Development
